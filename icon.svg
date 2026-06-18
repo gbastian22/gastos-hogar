@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8280FF"/>
+      <stop offset="100%" stop-color="#4845CC"/>
+    </linearGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD84D"/>
+      <stop offset="100%" stop-color="#F0A500"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Chimney -->
+  <rect x="300" y="108" width="36" height="78" rx="4" fill="white" opacity="0.95"/>
+
+  <!-- Roof (triangle) -->
+  <polygon points="256,82 412,242 100,242" fill="white" opacity="0.95"/>
+
+  <!-- House body -->
+  <rect x="120" y="232" width="272" height="196" rx="6" fill="white" opacity="0.95"/>
+
+  <!-- Left window -->
+  <rect x="146" y="262" width="62" height="56" rx="8" fill="#5552CC" opacity="0.18"/>
+  <line x1="177" y1="262" x2="177" y2="318" stroke="#5552CC" stroke-width="3" opacity="0.18"/>
+  <line x1="146" y1="290" x2="208" y2="290" stroke="#5552CC" stroke-width="3" opacity="0.18"/>
+
+  <!-- Right window -->
+  <rect x="304" y="262" width="62" height="56" rx="8" fill="#5552CC" opacity="0.18"/>
+  <line x1="335" y1="262" x2="335" y2="318" stroke="#5552CC" stroke-width="3" opacity="0.18"/>
+  <line x1="304" y1="290" x2="366" y2="290" stroke="#5552CC" stroke-width="3" opacity="0.18"/>
+
+  <!-- Gold coin (door area) -->
+  <circle cx="256" cy="352" r="70" fill="url(#coin)"/>
+  <circle cx="256" cy="352" r="58" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="3"/>
+
+  <!-- Dollar sign -->
+  <text x="256" y="381"
+    font-family="-apple-system, Arial Black, Arial, sans-serif"
+    font-size="74" font-weight="900"
+    text-anchor="middle"
+    fill="#7A4800"
+    opacity="0.9">$</text>
+</svg>

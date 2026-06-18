@@ -1,0 +1,25 @@
+{
+  "name": "Gastos del Hogar",
+  "short_name": "Gastos",
+  "description": "Seguimiento de gastos compartidos del hogar",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B0A16",
+  "theme_color": "#0B0A16",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
